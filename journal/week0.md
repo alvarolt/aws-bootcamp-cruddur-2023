@@ -58,15 +58,18 @@ Done!
   
 - **Creating a Budget**
 
+  Go to **Budgets**, select **Monthly cost budget** and complete the **Monthly cost budget - Template** 
   
+  ![image](https://user-images.githubusercontent.com/125397350/219901725-d10c829d-2c97-4730-802b-9a4655b1f935.png)
 
+- Cost allocation tags
 
-
-
-
-
-
+- Cost explorer (AWS Cost Manager) and reports
+  
+  
 ## Watched Ashish's Week 0 - Security Considerations	
+
+ - Done!
 
 ## Recreate Conceptual Diagram in Lucid Charts or on a Napkin	
 
@@ -83,4 +86,24 @@ Done!
 ## Create a Billing Alarm	
 
 ## Create a Budget	
+
+------------------------------------------------------------------
+# Homework Challenges
+
+## Destroy your root account credentials, Set MFA, IAM role
+
+  **MFA added**
+  
+  ![image](https://user-images.githubusercontent.com/125397350/219907309-c7a0bfc5-d15d-4074-9bdb-1dbb32d80721.png)
+
+
+## Use EventBridge to hookup Health Dashboard to SNS and send notification when there is a service health issue.
+
+## Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
+
+## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
+
+## Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility. 
+
+## Open a support ticket and request a service limit
 
