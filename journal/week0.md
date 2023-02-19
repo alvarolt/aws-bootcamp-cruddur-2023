@@ -74,7 +74,28 @@ https://www.youtube.com/watch?v=OVw3RrlP-sI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 https://www.youtube.com/watch?v=4EMWBYVggQI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=16
 
  - CloudTrail
- - IAM service does not have a specific region (global)
+ - IAM is the service that allows us to manage access to services and resources within Cloud Service Provider through users, groups, roles and Policies.
+    - This service does not have a specific region (global)
+    - 3 types of **IAM User** Accounts: Root/Owner, User, Service/Programmatic
+    - **IAM Policies** are what provide the authorization to access different resources within AWS environment.They can be attached to Users, Roles, Groups. There are 2 Types: Created/managed by AWS, "Job Function" specific policies
+    - **IAM Group** is a logical organization for Users. Using this groups allows to understand what permission an IAM User will have based on their Group Membership and reviewing the IAM Policies attached to that IAM Group.
+    - **IAM Roles** are used to assign specific permissions to either cloud services or external entities. Iam Roles are meant to be assumed by either a Federal User (using Single Sign-on), or resource (EC2, Lambda, etc). The benefits of using IAM Roles are the temporary, short-lived tokens that are generated to provide the authorized resource or user access to perform functions within AWS. Roles consist of:
+      - Attached Policies for Permissions
+      - Trust relationship. Who is trusted to assume this role. This can be a federated identity, an AWS resource, or another AWS Account.
+      - Tags
+      - Access Advisor. It allows us to audit what Services a role has permissions to, and when the last time the role accessed that service. This can help scope down permissions to roles.
+
+
+  - Service Control Policies --> https://github.com/hashishrajan/aws-scp-best-practice-policies
+
+  - TOP 5 Security Best Practices
+    - Data Protection & Residency in accordance to Security Policy
+    - Identity & Access Management with Least Privilege
+    - Governance & Compliance of AWS Services being used
+      - Global vs Regional Services
+      - Compliant Services
+    - Shared Responsability of Threat Detection
+    - Incident Response Plans to include Cloud
 
 ## Recreate Conceptual Diagram in Lucid Charts or on a Napkin	
 https://www.youtube.com/watch?v=K6FDrI_tz0k&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=17
