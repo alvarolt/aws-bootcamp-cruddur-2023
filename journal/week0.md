@@ -100,6 +100,13 @@ https://www.youtube.com/watch?v=4EMWBYVggQI&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 ## Recreate Conceptual Diagram in Lucid Charts or on a Napkin	
 https://www.youtube.com/watch?v=K6FDrI_tz0k&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=17
 
+  - **Link to Lucid Chart Diagram:**
+
+    https://lucid.app/lucidchart/607fe7cb-3360-43fc-910b-9baf44dc6651/edit?viewport_loc=-116%2C-19%2C2120%2C1080%2C0_0&invitationId=inv_c7e9cdff-48dd-4fe9-84f2-8c8bce718867
+
+    ![image](https://user-images.githubusercontent.com/125397350/220203903-c6df183f-df81-4f34-b8d0-8c1329107727.png)
+
+
 ## Recreate Logical Architectual Diagram in Lucid Charts	
 https://www.youtube.com/watch?v=K6FDrI_tz0k&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=17
 
