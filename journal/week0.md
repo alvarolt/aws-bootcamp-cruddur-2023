@@ -103,6 +103,13 @@ https://www.youtube.com/watch?v=K6FDrI_tz0k&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 ## Recreate Logical Architectual Diagram in Lucid Charts	
 https://www.youtube.com/watch?v=K6FDrI_tz0k&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=17
 
+  - **Link to LucidChart Diagram:** 
+  
+    https://lucid.app/lucidchart/51fdb550-9ef3-459c-8413-5e55a94800cf/edit?viewport_loc=-413%2C-15%2C2649%2C1349%2C0_0&invitationId=inv_7a4f0200-9c7c-47eb-8a05-bff0186ccce5
+    
+    ![image](https://user-images.githubusercontent.com/125397350/220191046-2398ba0a-84a2-4869-9f50-16cdc4076fb4.png)
+
+
 ## Create an Admin User	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
 
