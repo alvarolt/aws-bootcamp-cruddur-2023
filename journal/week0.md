@@ -144,6 +144,15 @@ https://www.youtube.com/watch?v=K6FDrI_tz0k&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 ## Create an Admin User	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
 
+  - New Admin User "alvarolucas" was created.
+  - Alias aws-bootcamp-alt was also created for easy access.
+  - MFA for this user was also set up.
+  - Access Keys were created for programmatic access.
+
+![image](https://user-images.githubusercontent.com/125397350/220258429-490d895e-3d6d-400d-9767-2d77d29b2450.png)
+
+
+
 ## Use CloudShell	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
 
@@ -177,6 +186,11 @@ https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 ## Review all the questions of each pillars in the Well Architected Tool (No specialized lens)
 
 ## Create an architectural diagram (to the best of your ability) the CI/CD logical pipeline in Lucid Charts
+
+I have already created this diagram in one of the sections above.
+
+  - https://lucid.app/lucidchart/51fdb550-9ef3-459c-8413-5e55a94800cf/edit?viewport_loc=-413%2C-15%2C2649%2C1349%2C0_0&invitationId=inv_7a4f0200-9c7c-47eb-8a05-bff0186ccce5
+
 
 ## Research the technical and service limits of specific services and how they could impact the technical path for technical flexibility. 
 
