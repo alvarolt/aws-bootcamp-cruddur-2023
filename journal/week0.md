@@ -156,8 +156,50 @@ https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 ## Use CloudShell	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
 
+- Auto prompt was enabled: aws --cli-auto-promt
+- Command: aws sts get-caller-identity
+- Command: aws account get-contact-information
+
+![image](https://user-images.githubusercontent.com/125397350/220261851-8eac7db4-7646-48f1-90b4-dab1a1c69195.png)
+
+
 ## Generate AWS Credentials	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
+
+- Install AWS CLI
+  
+  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  unzip awscliv2.zip
+  sudo ./aws/install
+
+- Set enviroment variables
+  ```
+  export AWS_ACCESS_KEY_ID=""
+  export AWS_SECRET_ACCESS_KEY=""
+  export AWS_DEFAULT_REGION=us-east-1
+  ```
+- Tell Gitpod to remember your credentials
+  ```
+  gp env AWS_ACCESS_KEY_ID=""
+  gp env AWS_SECRET_ACCESS_KEY=""
+  gp env AWS_DEFAULT_REGION=us-east-1
+  ```
+  
+  ![image](https://user-images.githubusercontent.com/125397350/220267653-d8203b05-0c9c-4879-809b-55dcff7353c8.png)
+
+- To have persistence of aws CLI, include this task in .gitpod.yml
+  ```
+  tasks:
+  - name: aws-cli
+    env:
+      AWS_CLI_AUTO_PROMPT: on-partial
+    init: |
+      cd /workspace
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip awscliv2.zip
+      sudo ./aws/install
+      cd $THEIA_WORKSPACE_ROOT
+   ```
 
 ## Installed AWS CLI	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
