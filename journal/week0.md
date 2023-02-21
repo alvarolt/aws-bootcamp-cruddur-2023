@@ -204,11 +204,17 @@ https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgN
 ## Installed AWS CLI	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
 
+Done!
+
 ## Create a Billing Alarm	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
 
+Done in Watched Chirag's Week 0 - Spend Considerations
+
 ## Create a Budget	
 https://www.youtube.com/watch?v=OdUnNuKylHg&list=PLBfufR7vyJJ7k25byhRXJldB5AiwgNnWv&index=14
+
+Done in Watched Chirag's Week 0 - Spend Considerations
 
 
 
